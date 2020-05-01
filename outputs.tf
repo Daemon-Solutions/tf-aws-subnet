@@ -1,7 +1,7 @@
 output "subnets" {
-  value = ["${aws_subnet.subnet.*.id}"]
+  value = aws_subnet.subnet[*].id
 }
 
 output "azs" {
-  value = ["${aws_subnet.subnet.*.availability_zone}"]
+  value = aws_subnet.subnet[*].availability_zone
 }
