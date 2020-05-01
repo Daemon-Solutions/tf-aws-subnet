@@ -4,6 +4,12 @@ AWS Subnet - Terraform Module
 
 Creates a private subnet within an existing VPC and associates it to existing route tables
 
+## Terraform Version Compatibility
+Module Version|Terraform Version
+---|---
+v1.0.0|0.12.x
+v0.2.0|0.11.x
+
 ## Usage
 
 ```js
